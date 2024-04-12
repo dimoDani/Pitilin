@@ -266,7 +266,7 @@ button {
 .navigation.navbar-dark .navbar-nav .nav-link {
      padding: 0;
      margin: 0px 40px;
-     color: #333333;
+     color: #736666;
      font-size: 16px;
      line-height: 20px;
      font-weight: 500;
@@ -286,13 +286,13 @@ button {
 }
 
 .navbar-expand-md .navbar-nav {
-     padding-right: 10px;
+     padding-right: 4em;
 }
 
 .header {
      width: 100%;
      padding: 35px 0px 35px 0px;
-     background: #fff;
+     background: #000000;
 }
 
 .logo {
@@ -309,7 +309,7 @@ button {
      background-position: center;
      background-repeat: no-repeat;
      min-height: 804px;
-     padding-top: 17%;
+     padding-top: 2%;
 }
 
 .text-bg {
@@ -335,7 +335,7 @@ button {
 .text-bg span {
      line-height: 25px;
      padding-bottom: 40px;
-     color: #fff;
+     color: #5c5959;
      font-size: 17px;
      font-weight: bold;
      display: block;
@@ -1132,3 +1132,13 @@ ul.link_menu li a:hover {
 .in_page .header {
      border-bottom: #3fe43d solid 2px;
 }
+.containerfondo {
+     background-color: rgba(255, 255, 255, 0.7); /* Color de fondo blanquecino transparente */
+     padding: 20px;
+     border-radius: 20px; /* Bordes redondeados */
+     margin: 50px auto;
+     text-align: center;
+     display: inline-block;
+     width: 100%; /* Ancho al 100% */
+    max-width: 600px; /* Establece un ancho máximo */
+   }
