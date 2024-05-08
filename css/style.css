@@ -1132,3 +1132,44 @@ ul.link_menu li a:hover {
 .in_page .header {
      border-bottom: #3fe43d solid 2px;
 }
+.recursos{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     align-content: center;
+     text-align: center;
+     padding-left: 200px;
+     padding-right: 200px;
+     margin-top: 60px;
+}
+.container1{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     margin-left: 200px;
+     margin-right: 200px;
+     margin-bottom: 70px;
+}
+.recursos{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.tb-recursos{
+     border: 70px;
+     border-color: blue;
+     border-collapse: collapse;
+     margin-top: 60px;
+     margin-left: auto;
+     margin-right: auto;
+     font-size: 16px;
+}
+.hearderR{
+     display: flex;
+     margin-left: auto;
+     margin-left: auto;
+}
+.main-header{
+     font-size: 50px;
+     margin-bottom: 30px;
+}
