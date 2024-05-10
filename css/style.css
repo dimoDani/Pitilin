@@ -460,7 +460,8 @@ button {
 
 .about .titlepage {
      text-align: left;
-     margin-top: 41%;
+     margin-top: 5%;
+     margin-bottom: 5%;
      padding-bottom: 0;
      margin-right: -20px;
 }
@@ -470,9 +471,10 @@ button {
 }
 
 .about .titlepage p {
+     text-indent: 20px;
      font-weight: 300;
      color: #2e2d2d;
-     font-size: 17px;
+     font-size: 12px;
      line-height: 31px;
      padding-bottom: 35px;
 }
@@ -500,6 +502,7 @@ button {
      width: 100%;
      z-index: 9999;
      position: relative;
+     margin-top: 60px;
 }
 
 
@@ -1144,4 +1147,9 @@ ul.link_menu li a:hover {
 }
 .imagen-con-filtro {
      filter: grayscale(100%);
+ }
+
+.center {
+     text-align: center; /* Center-align the content */
+     margin-bottom: 20px;
  }
