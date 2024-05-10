@@ -225,7 +225,7 @@
         margin-bottom: 30px;
     }
     .navigation.navbar {
-        float: right;
+        float: center;
         display: inherit !important;
         padding: 0;
         width: 100%;
@@ -246,7 +246,7 @@
     }
     .navigation.navbar-dark .navbar-toggler {
         border: inherit;
-        float: right;
+        float: center;
     }
     .navigation.navbar-dark .navbar-toggler-icon {
         background: url(../images/menu_icon.png);
