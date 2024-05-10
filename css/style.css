@@ -30,6 +30,19 @@
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
+.objectives_list {
+    list-style-type: circle; !important
+}
+
+.objectives_header {
+    font-weight: bold;
+    list-style-type: circle; !important
+}
+
+.objectives_item {
+    list-style-type: none;
+}
+
 * {
      box-sizing: border-box !important;
 }
