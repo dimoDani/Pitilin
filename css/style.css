@@ -279,7 +279,7 @@ button {
 .navigation.navbar-dark .navbar-nav .nav-link {
      padding: 0;
      margin: 0px 40px;
-     color: #736666;
+     color: #333333;
      font-size: 16px;
      line-height: 20px;
      font-weight: 500;
@@ -299,13 +299,13 @@ button {
 }
 
 .navbar-expand-md .navbar-nav {
-     padding-right: 10em;
+     padding-right: 10px;
 }
 
 .header {
      width: 100%;
      padding: 35px 0px 35px 0px;
-     background: #000000;
+     background: #fff;
 }
 
 .logo {
@@ -317,10 +317,12 @@ button {
 
 .banner {
      position: relative;
-     background: url(../images/background.jpg);
+     background: url(../images/banner1.jpg);
      background-size: 100% 100%;
      background-position: center;
      background-repeat: no-repeat;
+     min-height: 804px;
+     padding-top: 17%;
 }
 
 .text-bg {
@@ -346,7 +348,7 @@ button {
 .text-bg span {
      line-height: 25px;
      padding-bottom: 40px;
-     color: #5c5959;
+     color: #fff;
      font-size: 17px;
      font-weight: bold;
      display: block;
@@ -473,8 +475,7 @@ button {
 
 .about .titlepage {
      text-align: left;
-     margin-top: 5%;
-     margin-bottom: 5%;
+     margin-top: 41%;
      padding-bottom: 0;
      margin-right: -20px;
 }
@@ -484,10 +485,9 @@ button {
 }
 
 .about .titlepage p {
-     text-indent: 20px;
      font-weight: 300;
      color: #2e2d2d;
-     font-size: 12px;
+     font-size: 17px;
      line-height: 31px;
      padding-bottom: 35px;
 }
@@ -515,7 +515,6 @@ button {
      width: 100%;
      z-index: 9999;
      position: relative;
-     margin-top: 60px;
 }
 
 
@@ -906,6 +905,7 @@ button {
      background-size: 100% 100%;
      background-repeat: no-repeat;
      background-position: center;
+     margin-top: 90px;
      padding: 80px 0;
 }
 
@@ -978,7 +978,7 @@ button {
 /** footer **/
 
 .footer {
-     background: #000000;
+     background: #202020;
      padding-top: 80px;
      text-align: center;
 }
@@ -997,6 +997,7 @@ button {
 ul.social_icon {
      padding-bottom: 14px;
      width: 100%;
+     text-align: left;
 }
 
 ul.social_icon li {
@@ -1027,7 +1028,7 @@ ul.social_icon li a:hover {
 }
 
 .variat {
-     color:gray;
+     color: #fff;
      text-align: left;
      font-size: 17px;
      font-weight: 400;
@@ -1057,7 +1058,7 @@ ul.link_menu li {
 }
 
 ul.link_menu li a {
-     color: grey;
+     color: #fff;
      font-size: 17px;
      line-height: 28px;
      display: block;
@@ -1144,25 +1145,3 @@ ul.link_menu li a:hover {
 .in_page .header {
      border-bottom: #3fe43d solid 2px;
 }
-.containerfondo {
-     background-color: rgba(255, 255, 255, 0.7); /* Color de fondo blanquecino transparente */
-     padding: 20px;
-     border-radius: 20px; /* Bordes redondeados */
-     margin: 50px auto;
-     text-align: center;
-     display: inline-block;
-     width: 100%; /* Ancho al 100% */
-    max-width: 600px; /* Establece un ancho máximo */
-   }
-
-.logo2 {
-     margin-top: 2em;
-}
-.imagen-con-filtro {
-     filter: grayscale(100%);
- }
-
-.center {
-     text-align: center; /* Center-align the content */
-     margin-bottom: 20px;
- }
