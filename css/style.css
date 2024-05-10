@@ -1163,6 +1163,7 @@ ul.link_menu li a:hover {
      margin-left: auto;
      margin-right: auto;
      font-size: 16px;
+     width: 500px;
 }
 .hearderR{
      display: flex;
@@ -1172,4 +1173,7 @@ ul.link_menu li a:hover {
 .main-header{
      font-size: 50px;
      margin-bottom: 30px;
+}
+.green_color_txt{
+     color: #33f033;
 }
